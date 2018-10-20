@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AgendaApp.PaginaContacto" Padding="10" Title="Contacto">
+    
+        <StackLayout>
+            <Label Text="{Binding nombre}" FontSize="Large" TextColor="#212121"/>
+            <Label Text="{Binding telefono}" FontSize="Small" TextColor="#757575"/>
+            <Label Text="{Binding direccion}" FontSize="Small" TextColor="#757575"/>
+        </StackLayout>
+    
+</ContentPage>
